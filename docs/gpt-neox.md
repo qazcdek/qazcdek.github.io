@@ -1,7 +1,8 @@
 ---
+---
 layout: default
 title: GPT-Neox
-nav_order: 2
+nav_order: 3
 ---
 
 # GPT-Neox
