@@ -31,7 +31,6 @@ check remote branch
 $ git branch 
 
 \-a # 전부 확인
-<<<<<<< HEAD
 
 \-r # github branch만 확인
 {: .fs-6 .fw-300 }
