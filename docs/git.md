@@ -7,7 +7,6 @@ nav_order: 2
 # Git
 {: .no_toc }
 
-<<<<<<< HEAD
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -30,4 +29,8 @@ check remote branch
 
 $ git branch 
 
+default: local만 확인
+
 \-a # 전부 확인
+
+\-r # github만 확인
