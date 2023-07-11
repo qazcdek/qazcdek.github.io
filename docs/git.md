@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Git
 nav_order: 2
 ---
