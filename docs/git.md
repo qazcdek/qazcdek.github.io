@@ -17,19 +17,16 @@ nav_order: 2
 ---
 
 ## git remote branch 관련
-=======
-git remote branch 관련
->>>>>>> 7cca3ffd14afc747033d1c90243054faba64f0bd
 
-[link] https://cjh5414.github.io/get-git-remote-branch/
+### link 
+https://cjh5414.github.io/get-git-remote-branch/
 
-[내용]
-
-- update up-to-date status of github branch
+### 내용
+update up-to-date status of github branch
 
 $ git remote update
 
-- check remote branch
+check remote branch
 
 $ git branch 
 
@@ -38,7 +35,3 @@ $ git branch
 
 \-r # github branch만 확인
 {: .fs-6 .fw-300 }
-=======
-\-r # github branch만 확인
-{: .fs-6 .fw-300 }
->>>>>>> 7cca3ffd14afc747033d1c90243054faba64f0bd
