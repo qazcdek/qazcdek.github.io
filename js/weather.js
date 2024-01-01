@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY;
+const API_KEY = "7e5206aa55c5d1b078bfb7b898fbbb5c";
 const weatherIcon = document.querySelector("#topbar__weather img:first-child");
 const weatherTempMin = document.querySelector(
   "#topbar__weather > div > span:first-child"
