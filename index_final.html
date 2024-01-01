@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum</title>
+  </head>
+  <body>
+    <div class="topbar">
+      <div id="topbar__weather">
+        <img class="topbar__weather-icon"></img>
+        <div><span></span><span></span></div>
+        
+      </div>
+      <div class="topbar__clock">
+        <span class="topbar__clock-calendar"></span>
+        <span class="topbar__clock-time"></span>
+      </div>
+    </div>
+    <div>
+      <form class="hidden" id="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <button>Welcome!</button>
+      </form>
+    </div>
+    <h1 id="greeting" class="hidden"></h1>
+    <div>
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To Do and Press Enter!"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div id="bookmark">
+      <div>
+        <span>Bookmarks </span>
+        <form id="addButton">
+          <button>+</button>
+        </form>
+      </div>
+      <form id="bookmark__form" class="hidden">
+        <input class="bookmark__form-name" type="text" placeholder="Site Name" maxlength="3" required />
+        <input class="bookmark__form-url" type="url" placeholder="URL" required />
+        <input class="bookmark__form-order" type="number" placeholder="order" min="1" max="8"/>
+        <input class="bookmark__form-color" type="color" />
+        
+        <button class="bookmark__form-ok" type="submit">OK!</button>
+      </form>
+      <ol>
+      </ol>
+    </div>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    
+
+    <script src="js/greetings.js"></script>
+    <script src="js/topbar.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/bookmark.js"></script>
+    <script src="https://kit.fontawesome.com/109a78cb6d.js" crossorigin="anonymous"></script>
+  </body>
+</html>
