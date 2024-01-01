@@ -89,6 +89,9 @@ function onBookmarkOK(event) {
     color: bookmark_color.value,
   };
   urlArray = JSON.parse(localStorage.getItem(BOOKMARK_KEY));
+  if (urlArray === null) {
+    urlArray = [];
+  }
   if (urlArray.length >= 8) {
     alert("The maximum number of Bookmarks is 8!");
     return;
@@ -115,5 +118,4 @@ bookmark_add.addEventListener("click", addBookmark);
 bookmark_form.addEventListener("submit", onBookmarkOK);
 
 let savedBookmarks = localStorage.getItem(BOOKMARK_KEY);
-
 paintBookmarksAll();
