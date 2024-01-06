@@ -9,9 +9,11 @@
   <body>
     <div class="topbar">
       <div id="topbar__weather">
-        <img class="topbar__weather-icon"></img>
+        <div>
+          <span class="topbar__weather-loc"></span
+          ><img class="topbar__weather-icon" />
+        </div>
         <div><span></span><span></span></div>
-        
       </div>
       <div class="topbar__clock">
         <span class="topbar__clock-calendar"></span>
@@ -48,21 +50,36 @@
         </form>
       </div>
       <form id="bookmark__form" class="hidden">
-        <input class="bookmark__form-name" type="text" placeholder="Site Name" maxlength="3" required />
-        <input class="bookmark__form-url" type="url" placeholder="URL" required />
-        <input class="bookmark__form-order" type="number" placeholder="order" min="1" max="8"/>
+        <input
+          class="bookmark__form-name"
+          type="text"
+          placeholder="Site Name"
+          maxlength="3"
+          required
+        />
+        <input
+          class="bookmark__form-url"
+          type="url"
+          placeholder="URL"
+          required
+        />
+        <input
+          class="bookmark__form-order"
+          type="number"
+          placeholder="order"
+          min="1"
+          max="8"
+        />
         <input class="bookmark__form-color" type="color" />
-        
+
         <button class="bookmark__form-ok" type="submit">OK!</button>
       </form>
-      <ol>
-      </ol>
+      <ol></ol>
     </div>
     <div id="quote">
       <span></span>
       <span></span>
     </div>
-    
 
     <script src="js/greetings.js"></script>
     <script src="js/topbar.js"></script>
@@ -71,6 +88,9 @@
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/bookmark.js"></script>
-    <script src="https://kit.fontawesome.com/109a78cb6d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/109a78cb6d.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
