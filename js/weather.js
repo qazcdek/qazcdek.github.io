@@ -20,7 +20,7 @@ function onGeoOK(position) {
       const presentLocation = data.name;
       const icon = data.weather[0].icon;
       const urlIcon = `https://openweathermap.org/img/wn/${icon}@2x.png`;
-      weatherIcon.src = urlIcon;
+      weatherIcon.src = `${urlIcon}`;
       weatherTempMin.innerText = `최저:  ${Math.round(10 * tempMin) / 10} °C`;
       weatherTempMax.innerText = `최고:  ${Math.round(10 * tempMax) / 10} °C`;
       weatherLocation.innerText = `${presentLocation}`;
