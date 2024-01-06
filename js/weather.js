@@ -24,7 +24,7 @@ function onGeoOK(position) {
       weatherTempMin.innerText = `최저:  ${Math.round(10 * tempMin) / 10} °C`;
       weatherTempMax.innerText = `최고:  ${Math.round(10 * tempMax) / 10} °C`;
       weatherLocation.innerText = `${presentLocation}`;
-      console.log(typeof tempMax);
+      console.log(data);
     });
 }
 function onGeoError() {
